@@ -1,0 +1,28 @@
+.add-todo {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 0 0 2rem;
+
+    &__input {
+        width: 60%;
+        height: 40px;
+        padding: 5px 20px;
+        border-radius: 2px;
+    }
+
+    &__button {
+        width: 39%;
+        height: 50px;
+        font-family: cursive;
+        font-size: 24px;
+        color: white;
+        background-color: rgba(#700bec, 0.3);
+        border-radius: 2px;
+        cursor: pointer;
+
+        @media only screen and (max-width: 768px){
+            font-size: 18px;
+         }
+    }
+}

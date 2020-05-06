@@ -1,0 +1,51 @@
+@import './components/TodoItem/TodoItem.scss';
+@import './components/TodoList/TodoList.scss';
+@import './components/AddTodo/AddTodo.scss';
+@import './components/Loader/Loader.scss';
+
+
+body {
+  margin: 0;
+  font-family: cursive, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #e3e9ff;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+button, input {
+  border: none;
+  outline: none;
+}
+
+#root {
+  padding: 0 30px;
+}
+
+.wrapper {
+  max-width: 600px;
+  padding: 3rem 0;
+  margin: 0 auto;
+
+  &__title {
+    padding: 1rem 0;
+    text-align: center;
+    color: white;
+    background-color: rgba(#700bec, 0.3);
+    border-radius: 2px;
+
+    @media only screen and (max-width: 768px){
+       font-size: 24px;
+    }
+  }
+}
